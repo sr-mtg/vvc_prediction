@@ -1,0 +1,27 @@
+ffmpeg version 4.2.7-0ubuntu0.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 9 (Ubuntu 9.4.0-1ubuntu1~20.04.1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-avresample --disable-filter=resample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-nvenc --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+[hevc @ 0x561f49fbb6c0] Stream #0: not enough frames to estimate rate; consider increasing probesize
+Input #0, hevc, from 'Busy_City_s007.265':
+  Duration: N/A, bitrate: N/A
+    Stream #0:0: Video: hevc (Main), yuv420p(tv), 3840x2160, 23.98 fps, 23.98 tbr, 1200k tbn, 23.98 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> rawvideo (native))
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=0.0 size=       0kB time=-577014:32:22.77 bitrate=  -0.0kbits/s speed=N/A    Output #0, rawvideo, to 'output.yuv':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 3840x2160, q=2-31, 2386796 kb/s, 23.98 fps, 23.98 tbn, 23.98 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 rawvideo
+frame=    6 fps=3.9 q=-0.0 size=   72704kB time=00:00:00.25 bitrate=2380374.7kbits/s speed=0.162x    frame=    9 fps=4.0 q=-0.0 size=  109312kB time=00:00:00.37 bitrate=2385965.6kbits/s speed=0.166x    frame=   11 fps=3.5 q=-0.0 size=  133632kB time=00:00:00.45 bitrate=2386473.0kbits/s speed=0.147x    frame=   17 fps=4.6 q=-0.0 size=  206336kB time=00:00:00.70 bitrate=2384324.0kbits/s speed=0.193x    frame=   20 fps=4.8 q=-0.0 size=  242944kB time=00:00:00.83 bitrate=2386247.5kbits/s speed=0.199x    frame=   23 fps=4.7 q=-0.0 size=  279296kB time=00:00:00.95 bitrate=2385480.3kbits/s speed=0.197x    frame=   26 fps=4.8 q=-0.0 size=  315648kB time=00:00:01.08 bitrate=2384892.2kbits/s speed= 0.2x    frame=   33 fps=5.3 q=-0.0 size=  400896kB time=00:00:01.37 bitrate=2386474.7kbits/s speed=0.219x    frame=   40 fps=5.9 q=-0.0 size=  485888kB time=00:00:01.66 bitrate=2386246.1kbits/s speed=0.246x    frame=   46 fps=6.2 q=-0.0 size=  558848kB time=00:00:01.91 bitrate=2386574.8kbits/s speed=0.259x    frame=   55 fps=6.8 q=-0.0 size=  668160kB time=00:00:02.29 bitrate=2386475.1kbits/s speed=0.285x    frame=   62 fps=7.2 q=-0.0 size=  753152kB time=00:00:02.58 bitrate=2386327.5kbits/s speed= 0.3x    frame=   68 fps=7.4 q=-0.0 size=  826112kB time=00:00:02.83 bitrate=2386542.7kbits/s speed=0.308x    frame=   75 fps=7.7 q=-0.0 size=  911104kB time=00:00:03.12 bitrate=2386414.4kbits/s speed=0.322x    frame=   77 fps=7.5 q=-0.0 size=  935424kB time=00:00:03.21 bitrate=2386475.2kbits/s speed=0.313x    frame=   83 fps=7.7 q=-0.0 size= 1008384kB time=00:00:03.46 bitrate=2386640.1kbits/s speed=0.321x    frame=   90 fps=4.9 q=-0.0 size= 1093376kB time=00:00:03.75 bitrate=2386525.6kbits/s speed=0.205x    frame=  101 fps=5.3 q=-0.0 size= 1227008kB time=00:00:04.21 bitrate=2386520.5kbits/s speed=0.22x    frame=  104 fps=5.3 q=-0.0 size= 1263360kB time=00:00:04.33 bitrate=2386343.5kbits/s speed=0.22x    frame=  107 fps=5.3 q=-0.0 size= 1299968kB time=00:00:04.46 bitrate=2386645.8kbits/s speed=0.22x    frame=  111 fps=5.3 q=-0.0 size= 1348608kB time=00:00:04.62 bitrate=2386722.4kbits/s speed=0.223x    frame=  115 fps=5.4 q=-0.0 size= 1397248kB time=00:00:04.79 bitrate=2386793.2kbits/s speed=0.225x    frame=  120 fps=5.6 q=-0.0 Lsize= 1458000kB time=00:00:05.00 bitrate=2386796.6kbits/s speed=0.232x    
+video:1458000kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%

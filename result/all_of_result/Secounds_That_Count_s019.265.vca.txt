@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Secounds_That_Count_s019.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 1 frames: 1.47 fps  vca 3 frames: 3.05 fps  vca 6 frames: 3.94 fps  vca 7 frames: 1.83 fps  vca 11 frames: 2.64 fps  vca 13 frames: 2.93 fps  vca 15 frames: 3.14 fps  vca 16 frames: 2.73 fps  vca 19 frames: 3.03 fps  vca 23 frames: 3.49 fps  vca 24 frames: 1.72 fps  vca 27 frames: 1.90 fps  vca 29 frames: 1.26 fps  vca 32 frames: 1.37 fps  vca 36 frames: 1.52 fps  vca 38 frames: 1.56 fps  vca 43 frames: 1.71 fps  vca 47 frames: 1.85 fps  vca 51 frames: 1.99 fps  vca 52 frames: 1.99 fps  vca 54 frames: 2.03 fps  vca 56 frames: 2.07 fps  vca 61 frames: 2.19 fps  vca 63 frames: 2.16 fps  vca 65 frames: 2.17 fps  vca 72 frames: 2.34 fps  vca 74 frames: 2.32 fps  vca 75 frames: 2.34 fps  vca 80 frames: 2.47 fps  vca 83 frames: 2.53 fps  vca 85 frames: 2.56 fps  vca 89 frames: 2.65 fps  vca 92 frames: 2.71 fps  vca 94 frames: 2.75 fps  vca 95 frames: 2.29 fps  vca 99 frames: 2.38 fps  vca 104 frames: 2.45 fps  vca 105 frames: 2.44 fps  vca 109 frames: 2.51 fps  vca 114 frames: 2.60 fps  vca 116 frames: 2.62 fps  vca - Analyzed 120/120 frames, 2.70 fps, time 0:00:44.435

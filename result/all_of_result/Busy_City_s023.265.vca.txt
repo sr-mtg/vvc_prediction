@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Busy_City_s023.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 5 frames: 17.01 fps  vca 7 frames: 5.11 fps  vca 9 frames: 5.37 fps  vca 10 frames: 4.95 fps  vca 13 frames: 5.43 fps  vca 16 frames: 4.21 fps  vca 20 frames: 4.87 fps  vca 24 frames: 5.46 fps  vca 26 frames: 5.47 fps  vca 27 frames: 5.37 fps  vca 30 frames: 5.57 fps  vca 32 frames: 5.25 fps  vca 36 frames: 5.66 fps  vca 41 frames: 5.87 fps  vca 46 frames: 6.16 fps  vca 49 frames: 6.33 fps  vca 50 frames: 4.01 fps  vca 55 frames: 4.30 fps  vca 59 frames: 4.44 fps  vca 62 frames: 4.51 fps  vca 66 frames: 4.69 fps  vca 70 frames: 4.88 fps  vca 76 frames: 5.20 fps  vca 81 frames: 5.39 fps  vca 86 frames: 5.62 fps  vca 90 frames: 5.75 fps  vca 96 frames: 6.03 fps  vca 100 frames: 6.17 fps  vca 103 frames: 6.25 fps  vca 108 frames: 6.44 fps  vca 111 frames: 6.51 fps  vca 118 frames: 6.81 fps  vca - Analyzed 120/120 frames, 6.90 fps, time 0:00:17.384

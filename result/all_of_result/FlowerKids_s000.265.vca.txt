@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    FlowerKids_s000.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 4 frames: 9.64 fps  vca 6 frames: 7.73 fps  vca 10 frames: 9.51 fps  vca 12 frames: 8.96 fps  vca 15 frames: 8.49 fps  vca 18 frames: 8.82 fps  vca 22 frames: 9.47 fps  vca 24 frames: 8.91 fps  vca 27 frames: 9.15 fps  vca 29 frames: 8.97 fps  vca 32 frames: 9.15 fps  vca 34 frames: 9.03 fps  vca 38 frames: 8.77 fps  vca 41 frames: 8.83 fps  vca 44 frames: 8.88 fps  vca 45 frames: 3.70 fps  vca 48 frames: 3.86 fps  vca 53 frames: 4.10 fps  vca 54 frames: 4.04 fps  vca 56 frames: 4.08 fps  vca 58 frames: 4.14 fps  vca 63 frames: 4.36 fps  vca 65 frames: 4.38 fps  vca 69 frames: 4.54 fps  vca 70 frames: 3.31 fps  vca 75 frames: 3.49 fps  vca 79 frames: 3.61 fps  vca 81 frames: 3.65 fps  vca 84 frames: 3.73 fps  vca 87 frames: 3.82 fps  vca 90 frames: 3.90 fps  vca 92 frames: 3.92 fps  vca 94 frames: 3.96 fps  vca 97 frames: 4.04 fps  vca 101 frames: 4.15 fps  vca 102 frames: 4.14 fps  vca 105 frames: 4.20 fps  vca 108 frames: 4.27 fps  vca 112 frames: 4.38 fps  vca 114 frames: 4.41 fps  vca 117 frames: 4.47 fps  vca - Analyzed 120/120 frames, 4.57 fps, time 0:00:26.261

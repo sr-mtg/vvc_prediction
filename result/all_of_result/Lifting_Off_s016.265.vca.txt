@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Lifting_Off_s016.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 1 frames: 1.15 fps  vca 5 frames: 4.46 fps  vca 8 frames: 5.78 fps  vca 10 frames: 3.50 fps  vca 11 frames: 3.53 fps  vca 15 frames: 4.45 fps  vca 19 frames: 5.10 fps  vca 20 frames: 3.93 fps  vca 23 frames: 4.18 fps  vca 27 frames: 4.60 fps  vca 29 frames: 4.69 fps  vca 30 frames: 4.27 fps  vca 33 frames: 4.50 fps  vca 38 frames: 4.83 fps  vca 40 frames: 4.80 fps  vca 41 frames: 4.72 fps  vca 43 frames: 4.75 fps  vca 47 frames: 5.05 fps  vca 49 frames: 4.99 fps  vca 53 frames: 5.23 fps  vca 56 frames: 5.38 fps  vca 58 frames: 5.35 fps  vca 59 frames: 5.21 fps  vca 65 frames: 5.51 fps  vca 66 frames: 3.39 fps  vca 72 frames: 3.65 fps  vca 75 frames: 3.69 fps  vca 76 frames: 3.65 fps  vca 78 frames: 3.69 fps  vca 81 frames: 3.75 fps  vca 82 frames: 2.84 fps  vca 86 frames: 2.94 fps  vca 91 frames: 3.02 fps  vca 92 frames: 3.02 fps  vca 93 frames: 2.43 fps  vca 95 frames: 2.46 fps  vca 99 frames: 2.54 fps  vca 103 frames: 2.62 fps  vca 105 frames: 2.62 fps  vca 107 frames: 2.66 fps  vca 114 frames: 2.78 fps  vca 116 frames: 2.81 fps  vca - Analyzed 120/120 frames, 2.90 fps, time 0:00:41.312

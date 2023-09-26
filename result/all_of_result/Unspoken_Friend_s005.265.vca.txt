@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Unspoken_Friend_s005.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 1 frames: 1.42 fps  vca 2 frames: 1.19 fps  vca 6 frames: 2.93 fps  vca 8 frames: 3.44 fps  vca 11 frames: 4.00 fps  vca 14 frames: 4.57 fps  vca 15 frames: 4.24 fps  vca 16 frames: 4.20 fps  vca 21 frames: 5.12 fps  vca 24 frames: 5.43 fps  vca 25 frames: 5.10 fps  vca 29 frames: 5.60 fps  vca 34 frames: 5.86 fps  vca 36 frames: 5.78 fps  vca 40 frames: 6.09 fps  vca 44 frames: 6.14 fps  vca 45 frames: 6.04 fps  vca 47 frames: 6.05 fps  vca 50 frames: 6.20 fps  vca 54 frames: 6.42 fps  vca 55 frames: 4.98 fps  vca 59 frames: 5.23 fps  vca 64 frames: 5.25 fps  vca 66 frames: 5.05 fps  vca 68 frames: 5.10 fps  vca 72 frames: 5.30 fps  vca 75 frames: 5.32 fps  vca 77 frames: 5.29 fps  vca 79 frames: 5.32 fps  vca 82 frames: 5.43 fps  vca 86 frames: 5.56 fps  vca 88 frames: 5.59 fps  vca 89 frames: 5.01 fps  vca 93 frames: 5.15 fps  vca 98 frames: 5.21 fps  vca 101 frames: 5.29 fps  vca 103 frames: 5.30 fps  vca 106 frames: 5.36 fps  vca 110 frames: 5.48 fps  vca 114 frames: 5.60 fps  vca 115 frames: 5.51 fps  vca - Analyzed 120/120 frames, 5.66 fps, time 0:00:21.206

@@ -1,0 +1,26 @@
+ffmpeg version 4.2.7-0ubuntu0.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 9 (Ubuntu 9.4.0-1ubuntu1~20.04.1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-avresample --disable-filter=resample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-nvenc --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, hevc, from 'AncientThought_s033.265':
+  Duration: N/A, bitrate: N/A
+    Stream #0:0: Video: hevc (Main), yuv420p(tv), 3840x2160, 23.98 fps, 23.98 tbr, 1200k tbn, 23.98 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (hevc (native) -> rawvideo (native))
+Press [q] to stop, [?] for help
+Output #0, rawvideo, to 'output.yuv':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 3840x2160, q=2-31, 2386796 kb/s, 23.98 fps, 23.98 tbn, 23.98 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 rawvideo
+frame=    6 fps=0.0 q=-0.0 size=   72704kB time=00:00:00.25 bitrate=2380374.7kbits/s speed=0.496x    frame=   26 fps= 26 q=-0.0 size=  315648kB time=00:00:01.08 bitrate=2384892.2kbits/s speed=1.07x    frame=   49 fps= 29 q=-0.0 size=  595200kB time=00:00:02.04 bitrate=2386195.7kbits/s speed=1.22x    frame=   60 fps= 27 q=-0.0 size=  728832kB time=00:00:02.50 bitrate=2386246.6kbits/s speed=1.14x    frame=   69 fps= 25 q=-0.0 size=  838144kB time=00:00:02.87 bitrate=2386209.9kbits/s speed=1.06x    frame=   85 fps= 26 q=-0.0 size= 1032704kB time=00:00:03.54 bitrate=2386689.9kbits/s speed= 1.1x    frame=  104 fps= 28 q=-0.0 size= 1263360kB time=00:00:04.33 bitrate=2386343.5kbits/s speed=1.16x    frame=  113 fps= 27 q=-0.0 size= 1372928kB time=00:00:04.71 bitrate=2386758.4kbits/s speed=1.11x    frame=  120 fps= 27 q=-0.0 Lsize= 1458000kB time=00:00:05.00 bitrate=2386796.6kbits/s speed=1.12x    
+video:1458000kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%

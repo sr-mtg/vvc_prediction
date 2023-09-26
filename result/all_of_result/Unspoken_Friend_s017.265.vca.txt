@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Unspoken_Friend_s017.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 3 frames: 8.60 fps  vca 6 frames: 8.68 fps  vca 9 frames: 8.96 fps  vca 12 frames: 6.67 fps  vca 14 frames: 6.51 fps  vca 18 frames: 7.41 fps  vca 21 frames: 7.26 fps  vca 24 frames: 7.43 fps  vca 27 frames: 7.26 fps  vca 28 frames: 6.82 fps  vca 31 frames: 7.09 fps  vca 32 frames: 3.74 fps  vca 36 frames: 4.07 fps  vca 38 frames: 4.16 fps  vca 39 frames: 4.10 fps  vca 42 frames: 4.30 fps  vca 43 frames: 4.25 fps  vca 45 frames: 4.34 fps  vca 48 frames: 4.52 fps  vca 51 frames: 4.64 fps  vca 53 frames: 4.67 fps  vca 57 frames: 4.91 fps  vca 60 frames: 5.05 fps  vca 62 frames: 5.06 fps  vca 65 frames: 5.20 fps  vca 67 frames: 5.22 fps  vca 71 frames: 5.40 fps  vca 74 frames: 5.45 fps  vca 75 frames: 4.37 fps  vca 79 frames: 4.52 fps  vca 84 frames: 4.63 fps  vca 87 frames: 4.69 fps  vca 91 frames: 4.82 fps  vca 94 frames: 4.92 fps  vca 95 frames: 3.58 fps  vca 100 frames: 3.73 fps  vca 104 frames: 3.82 fps  vca 105 frames: 3.82 fps  vca 106 frames: 3.81 fps  vca 108 frames: 3.85 fps  vca 111 frames: 3.15 fps  vca 112 frames: 3.12 fps  vca - Analyzed 120/120 frames, 3.32 fps, time 0:00:36.156

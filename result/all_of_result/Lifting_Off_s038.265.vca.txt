@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Lifting_Off_s038.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 7 frames: 25.83 fps  vca 14 frames: 25.78 fps  vca 26 frames: 32.42 fps  vca 38 frames: 34.11 fps  vca 42 frames: 30.04 fps  vca 54 frames: 32.26 fps  vca 63 frames: 30.52 fps  vca 71 frames: 30.25 fps  vca 75 frames: 28.07 fps  vca 78 frames: 26.58 fps  vca 82 frames: 25.63 fps  vca 89 frames: 25.66 fps  vca 99 frames: 26.58 fps  vca 108 frames: 27.12 fps  vca - Analyzed 120/120 frames, 28.48 fps, time 0:00:04.213

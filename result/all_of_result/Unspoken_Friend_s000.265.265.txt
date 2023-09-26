@@ -1,0 +1,54 @@
+ffmpeg version 4.2.7-0ubuntu0.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 9 (Ubuntu 9.4.0-1ubuntu1~20.04.1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-avresample --disable-filter=resample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-nvenc --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+[rawvideo @ 0x55ab4a06a780] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'output.yuv':
+  Duration: 00:00:04.80, start: 0.000000, bitrate: 2488320 kb/s
+    Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 3840x2160, 2488320 kb/s, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> hevc (libx265))
+Press [q] to stop, [?] for help
+x265 [info]: HEVC encoder version 3.2.1+1-b5c86a64bbbe
+x265 [info]: build info [Linux][GCC 9.3.0][64 bit] 8bit+10bit+12bit
+x265 [info]: using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+x265 [info]: Main profile, Level-5 (Main tier)
+x265 [info]: Thread pool 0 using 8 threads on numa nodes 0,1
+x265 [info]: Slices                              : 1
+x265 [info]: frame threads / pool features       : 3 / wpp(34 rows)
+x265 [info]: Coding QT: max CU size, min CU size : 64 / 8
+x265 [info]: Residual QT: max TU size, max depth : 32 / 1 inter / 1 intra
+x265 [info]: ME / range / subpel / merge         : hex / 57 / 2 / 3
+x265 [info]: Keyframe min / max / scenecut / bias: 25 / 250 / 40 / 5.00
+x265 [info]: Lookahead / bframes / badapt        : 20 / 4 / 2
+x265 [info]: b-pyramid / weightp / weightb       : 1 / 1 / 0
+x265 [info]: References / ref-limit  cu / depth  : 3 / off / on
+x265 [info]: AQ: mode / str / qg-size / cu-tree  : 2 / 1.0 / 32 / 1
+x265 [info]: Rate Control / qCompress            : CRF-28.0 / 0.60
+x265 [info]: tools: rd=3 psy-rd=2.00 early-skip rskip signhide tmvp b-intra
+x265 [info]: tools: strong-intra-smoothing lslices=8 deblock sao
+Output #0, hevc, to 'output_h265.265':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: hevc (libx265), yuv420p, 3840x2160, q=2-31, 30 fps, 30 tbn, 30 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libx265
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=   21 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   28 fps= 16 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   30 fps= 11 q=-0.0 size=       4kB time=-00:00:00.03 bitrate=N/A speed=N/A    frame=   31 fps=3.4 q=-0.0 size=       5kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   35 fps=3.4 q=-0.0 size=       6kB time=00:00:00.13 bitrate= 344.9kbits/s speed=0.0128x    frame=   38 fps=3.4 q=-0.0 size=       7kB time=00:00:00.23 bitrate= 234.1kbits/s speed=0.021x    frame=   39 fps=2.1 q=-0.0 size=       7kB time=00:00:00.26 bitrate= 213.2kbits/s speed=0.0143x    frame=   43 fps=2.1 q=-0.0 size=       8kB time=00:00:00.40 bitrate= 167.2kbits/s speed=0.0195x    frame=   44 fps=1.6 q=-0.0 size=       8kB time=00:00:00.43 bitrate= 159.5kbits/s speed=0.0153x    frame=   47 fps=1.6 q=-0.0 size=       9kB time=00:00:00.53 bitrate= 142.3kbits/s speed=0.0182x    frame=   48 fps=1.6 q=-0.0 size=      10kB time=00:00:00.56 bitrate= 137.8kbits/s speed=0.0187x    frame=   49 fps=1.6 q=-0.0 size=      17kB time=00:00:00.60 bitrate= 237.7kbits/s speed=0.0193x    frame=   52 fps=1.6 q=-0.0 size=      57kB time=00:00:00.70 bitrate= 662.4kbits/s speed=0.0211x    frame=   55 fps=1.6 q=-0.0 size=      91kB time=00:00:00.80 bitrate= 932.2kbits/s speed=0.0237x    frame=   56 fps=1.6 q=-0.0 size=      95kB time=00:00:00.83 bitrate= 935.8kbits/s speed=0.0242x    frame=   57 fps=1.6 q=-0.0 size=      97kB time=00:00:00.86 bitrate= 917.7kbits/s speed=0.0244x    frame=   60 fps=1.6 q=-0.0 size=     138kB time=00:00:00.96 bitrate=1166.3kbits/s speed=0.0266x    frame=   62 fps=1.7 q=-0.0 size=     143kB time=00:00:01.03 bitrate=1132.6kbits/s speed=0.0278x    frame=   64 fps=1.7 q=-0.0 size=     198kB time=00:00:01.10 bitrate=1475.4kbits/s speed=0.0289x    frame=   65 fps=1.4 q=-0.0 size=     202kB time=00:00:01.13 bitrate=1457.1kbits/s speed=0.0244x    frame=   67 fps=1.4 q=-0.0 size=     239kB time=00:00:01.20 bitrate=1633.3kbits/s speed=0.0254x    frame=   70 fps=1.4 q=-0.0 size=     256kB time=00:00:01.30 bitrate=1613.2kbits/s speed=0.0268x    frame=   72 fps=1.5 q=-0.0 size=     256kB time=00:00:01.36 bitrate=1534.5kbits/s speed=0.0277x    frame=   76 fps=1.5 q=-0.0 size=     256kB time=00:00:01.50 bitrate=1398.1kbits/s speed=0.0293x    frame=   77 fps=1.4 q=-0.0 size=     256kB time=00:00:01.53 bitrate=1367.7kbits/s speed=0.0278x    frame=   83 fps=1.5 q=-0.0 size=     256kB time=00:00:01.73 bitrate=1209.9kbits/s speed=0.0309x    frame=   84 fps=1.5 q=-0.0 size=     256kB time=00:00:01.76 bitrate=1187.1kbits/s speed=0.0311x    frame=   87 fps=1.5 q=-0.0 size=     256kB time=00:00:01.86 bitrate=1123.5kbits/s speed=0.0324x    frame=   89 fps=1.5 q=-0.0 size=     256kB time=00:00:01.93 bitrate=1084.7kbits/s speed=0.0332x    frame=   90 fps=1.5 q=-0.0 size=     256kB time=00:00:01.96 bitrate=1066.3kbits/s speed=0.0335x    frame=   92 fps=1.5 q=-0.0 size=     512kB time=00:00:02.03 bitrate=2062.8kbits/s speed=0.0341x    frame=   94 fps=1.6 q=-0.0 size=     512kB time=00:00:02.10 bitrate=1997.3kbits/s speed=0.0348x    frame=   97 fps=1.6 q=-0.0 size=     512kB time=00:00:02.20 bitrate=1906.5kbits/s speed=0.0357x    frame=   99 fps=1.6 q=-0.0 size=     512kB time=00:00:02.26 bitrate=1850.4kbits/s speed=0.0364x    frame=  102 fps=1.6 q=-0.0 size=     512kB time=00:00:02.36 bitrate=1772.2kbits/s speed=0.0375x    frame=  104 fps=1.6 q=-0.0 size=     512kB time=00:00:02.43 bitrate=1723.7kbits/s speed=0.0377x    frame=  107 fps=1.6 q=-0.0 size=     512kB time=00:00:02.53 bitrate=1655.6kbits/s speed=0.0388x    frame=  109 fps=1.6 q=-0.0 size=     512kB time=00:00:02.60 bitrate=1613.2kbits/s speed=0.0393x    frame=  112 fps=1.7 q=-0.0 size=     512kB time=00:00:02.70 bitrate=1553.4kbits/s speed=0.0405x    frame=  114 fps=1.7 q=-0.0 size=     512kB time=00:00:02.76 bitrate=1516.0kbits/s speed=0.041x    frame=  118 fps=1.7 q=-0.0 size=     512kB time=00:00:02.90 bitrate=1446.3kbits/s speed=0.0427x    frame=  119 fps=1.7 q=-0.0 size=     512kB time=00:00:02.93 bitrate=1429.9kbits/s speed=0.0426x    frame=  120 fps=1.5 q=-0.0 Lsize=    1105kB time=00:00:03.93 bitrate=2301.3kbits/s speed=0.0501x    
+video:1105kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+x265 [info]: frame I:      3, Avg QP:30.21  kb/s: 12593.12
+x265 [info]: frame P:     29, Avg QP:30.10  kb/s: 5442.90 
+x265 [info]: frame B:     88, Avg QP:35.11  kb/s: 850.08  
+x265 [info]: Weighted P-Frames: Y:48.3% UV:20.7%
+x265 [info]: consecutive B-frames: 18.8% 6.2% 3.1% 25.0% 46.9% 
+
+encoded 120 frames in 78.42s (1.53 fps), 2253.59 kb/s, Avg QP:33.77

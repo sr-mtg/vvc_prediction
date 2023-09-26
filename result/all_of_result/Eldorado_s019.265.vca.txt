@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Eldorado_s019.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 2 frames: 7.49 fps  vca 4 frames: 6.25 fps  vca 8 frames: 7.72 fps  vca 10 frames: 7.65 fps  vca 11 frames: 7.02 fps  vca 14 frames: 6.62 fps  vca 15 frames: 5.97 fps  vca 20 frames: 6.95 fps  vca 22 frames: 7.00 fps  vca 24 frames: 6.62 fps  vca 26 frames: 6.43 fps  vca 27 frames: 6.25 fps  vca 31 frames: 6.69 fps  vca 35 frames: 6.82 fps  vca 36 frames: 6.36 fps  vca 37 frames: 3.36 fps  vca 41 frames: 3.63 fps  vca 46 frames: 3.85 fps  vca 47 frames: 3.57 fps  vca 53 frames: 3.95 fps  vca 56 frames: 3.96 fps  vca 60 frames: 4.16 fps  vca 62 frames: 4.22 fps  vca 65 frames: 4.21 fps  vca 67 frames: 4.26 fps  vca 68 frames: 3.34 fps  vca 72 frames: 3.48 fps  vca 77 frames: 3.60 fps  vca 79 frames: 3.64 fps  vca 80 frames: 3.64 fps  vca 81 frames: 2.74 fps  vca 85 frames: 2.85 fps  vca 86 frames: 2.85 fps  vca 90 frames: 2.92 fps  vca 93 frames: 2.97 fps  vca 98 frames: 3.08 fps  vca 99 frames: 3.08 fps  vca 100 frames: 3.07 fps  vca 101 frames: 3.06 fps  vca 106 frames: 3.18 fps  vca 109 frames: 3.23 fps  vca 111 frames: 3.24 fps  vca 116 frames: 3.35 fps  vca - Analyzed 120/120 frames, 3.45 fps, time 0:00:34.755

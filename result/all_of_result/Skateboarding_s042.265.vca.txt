@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    Skateboarding_s042.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 2 frames: 4.95 fps  vca 5 frames: 5.30 fps  vca 9 frames: 7.53 fps  vca 11 frames: 6.61 fps  vca 15 frames: 7.56 fps  vca 16 frames: 6.80 fps  vca 19 frames: 7.20 fps  vca 21 frames: 6.82 fps  vca 25 frames: 6.76 fps  vca 27 frames: 6.36 fps  vca 29 frames: 6.40 fps  vca 33 frames: 6.77 fps  vca 36 frames: 6.85 fps  vca 39 frames: 6.29 fps  vca 40 frames: 6.08 fps  vca 44 frames: 6.37 fps  vca 46 frames: 6.36 fps  vca 47 frames: 6.07 fps  vca 49 frames: 5.76 fps  vca 50 frames: 5.44 fps  vca 52 frames: 5.50 fps  vca 54 frames: 5.54 fps  vca 56 frames: 5.54 fps  vca 58 frames: 5.60 fps  vca 61 frames: 5.64 fps  vca 65 frames: 5.55 fps  vca 66 frames: 3.66 fps  vca 68 frames: 3.72 fps  vca 72 frames: 3.87 fps  vca 75 frames: 3.84 fps  vca 80 frames: 3.99 fps  vca 81 frames: 3.97 fps  vca 82 frames: 2.99 fps  vca 87 frames: 3.12 fps  vca 88 frames: 3.11 fps  vca 91 frames: 3.12 fps  vca 93 frames: 3.16 fps  vca 97 frames: 3.27 fps  vca 98 frames: 2.65 fps  vca 99 frames: 2.17 fps  vca 103 frames: 2.25 fps  vca 106 frames: 2.30 fps  vca 109 frames: 2.31 fps  vca 110 frames: 2.00 fps  vca - Analyzed 120/120 frames, 2.17 fps, time 0:00:55.262

@@ -1,0 +1,49 @@
+ffmpeg version 4.2.7-0ubuntu0.1 Copyright (c) 2000-2022 the FFmpeg developers
+  built with gcc 9 (Ubuntu 9.4.0-1ubuntu1~20.04.1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-avresample --disable-filter=resample --enable-avisynth --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librsvg --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-nvenc --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libavresample   4.  0.  0 /  4.  0.  0
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+[rawvideo @ 0x55684458d780] Estimating duration from bitrate, this may be inaccurate
+Input #0, rawvideo, from 'output.yuv':
+  Duration: 00:00:04.80, start: 0.000000, bitrate: 2488320 kb/s
+    Stream #0:0: Video: rawvideo (I420 / 0x30323449), yuv420p, 3840x2160, 2488320 kb/s, 25 tbr, 25 tbn, 25 tbc
+Stream mapping:
+  Stream #0:0 -> #0:0 (rawvideo (native) -> h264 (libx264))
+Press [q] to stop, [?] for help
+[libx264 @ 0x556844592d80] using cpu capabilities: MMX2 SSE2Fast SSSE3 SSE4.2 AVX
+[libx264 @ 0x556844592d80] profile High, level 5.1
+Output #0, h264, to 'output_h264.264':
+  Metadata:
+    encoder         : Lavf58.29.100
+    Stream #0:0: Video: h264 (libx264), yuv420p, 3840x2160, q=-1--1, 30 fps, 30 tbn, 30 tbc
+    Metadata:
+      encoder         : Lavc58.54.100 libx264
+    Side data:
+      cpb: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: -1
+frame=   23 fps=0.0 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   47 fps= 12 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   48 fps=5.3 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   56 fps=5.8 q=0.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    frame=   61 fps=6.0 q=29.0 size=     256kB time=00:00:00.10 bitrate=20971.5kbits/s speed=0.00984x    frame=   67 fps=6.3 q=29.0 size=     256kB time=00:00:00.30 bitrate=6990.5kbits/s speed=0.0281x    frame=   68 fps=6.0 q=29.0 size=     256kB time=00:00:00.33 bitrate=6291.5kbits/s speed=0.0296x    frame=   72 fps=6.1 q=29.0 size=     512kB time=00:00:00.46 bitrate=8987.8kbits/s speed=0.0395x    frame=   73 fps=5.7 q=29.0 size=     512kB time=00:00:00.50 bitrate=8388.6kbits/s speed=0.0394x    frame=   80 fps=5.8 q=29.0 size=     512kB time=00:00:00.73 bitrate=5719.5kbits/s speed=0.0535x    frame=   85 fps=4.6 q=29.0 size=     768kB time=00:00:00.90 bitrate=6990.5kbits/s speed=0.0489x    frame=   92 fps=4.8 q=29.0 size=     768kB time=00:00:01.13 bitrate=5551.3kbits/s speed=0.0597x    frame=   97 fps=5.0 q=29.0 size=     768kB time=00:00:01.30 bitrate=4839.6kbits/s speed=0.0666x    frame=  101 fps=5.0 q=29.0 size=    1024kB time=00:00:01.43 bitrate=5852.5kbits/s speed=0.0715x    frame=  105 fps=5.1 q=29.0 size=    1024kB time=00:00:01.56 bitrate=5354.4kbits/s speed=0.0754x    frame=  110 fps=5.2 q=29.0 size=    1024kB time=00:00:01.73 bitrate=4839.6kbits/s speed=0.0814x    frame=  117 fps=5.3 q=29.0 size=    1280kB time=00:00:01.96 bitrate=5331.7kbits/s speed=0.0896x    frame=  120 fps=3.3 q=-1.0 Lsize=    2464kB time=00:00:03.93 bitrate=5131.2kbits/s speed=0.11x    
+video:2464kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000000%
+[libx264 @ 0x556844592d80] frame I:1     Avg QP:24.25  size:268511
+[libx264 @ 0x556844592d80] frame P:30    Avg QP:23.98  size: 30318
+[libx264 @ 0x556844592d80] frame B:89    Avg QP:25.72  size: 15110
+[libx264 @ 0x556844592d80] consecutive B-frames:  0.8%  0.0%  2.5% 96.7%
+[libx264 @ 0x556844592d80] mb I  I16..4: 21.9% 59.9% 18.1%
+[libx264 @ 0x556844592d80] mb P  I16..4:  0.1%  0.2%  0.0%  P16..4: 20.8%  2.8%  3.8%  0.0%  0.0%    skip:72.4%
+[libx264 @ 0x556844592d80] mb B  I16..4:  0.0%  0.0%  0.0%  B16..8: 46.0%  0.1%  0.0%  direct: 0.0%  skip:53.9%  L0:49.0% L1:51.0% BI: 0.0%
+[libx264 @ 0x556844592d80] 8x8 transform intra:60.8% inter:94.4%
+[libx264 @ 0x556844592d80] coded y,uvDC,uvAC intra: 46.2% 43.2% 17.3% inter: 4.1% 4.2% 0.0%
+[libx264 @ 0x556844592d80] i16 v,h,dc,p: 54% 25%  5% 16%
+[libx264 @ 0x556844592d80] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu: 39% 14% 18%  4%  5%  6%  4%  6%  4%
+[libx264 @ 0x556844592d80] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 49% 14%  8%  4%  5%  7%  3%  6%  3%
+[libx264 @ 0x556844592d80] i8c dc,h,v,p: 58% 13% 26%  2%
+[libx264 @ 0x556844592d80] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x556844592d80] ref P L0: 66.6% 15.4% 13.5%  4.6%
+[libx264 @ 0x556844592d80] ref B L0: 85.3% 12.0%  2.7%
+[libx264 @ 0x556844592d80] ref B L1: 92.7%  7.3%
+[libx264 @ 0x556844592d80] kb/s:5045.71

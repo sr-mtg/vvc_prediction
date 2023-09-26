@@ -1,0 +1,26 @@
+[Info] VCA - Video Complexity Analyzer v2.0+4-gf59e9b5
+[Info] Options:   
+[Info]   Input file name:   stdin
+[Info]   Open as Y4m:       True
+[Info]   Enable SIMD:       True
+[Info]   Enable chroma:     True
+[Info]   Enable lowpassDCT: True
+[Info]   Skip frames:       0
+[Info]   Frames to analyze: 0
+[Info]   Segment Size:       0
+[Info]   Segment Feature csv:
+[Info]   Complexity csv:    AncientThought_s015.265.csv
+[Info]   Shot csv:          
+[Info]   YUView stats file: 
+[Info] Opening input from pipe
+[Info] Y4M read hidth 3840
+[Info] Y4M read height 2160
+[Info] Y4M Detected fps 1199/50
+[Info] Y4M invalid additional part in colorspace indicator (jpeg). Assuming 8 bit.
+[Info] Y4M Detected colorspace 4:2:0 with bit depth 8
+[Info] [LIB] Block size: 32
+[Info] [LIB] Autodetected SIMD.
+[Info] [LIB] Using SIMD SSE4
+[Info] [LIB] Autodetect nr threads 8
+[Info] [LIB] Starting 8 threads
+vca 1 frames: 1.34 fps  vca 2 frames: 1.84 fps  vca 4 frames: 2.50 fps  vca 6 frames: 3.18 fps  vca 7 frames: 3.10 fps  vca 11 frames: 4.37 fps  vca 14 frames: 4.95 fps  vca 17 frames: 5.43 fps  vca 19 frames: 5.30 fps  vca 20 frames: 5.20 fps  vca 25 frames: 6.03 fps  vca 28 frames: 5.96 fps  vca 34 frames: 5.57 fps  vca 35 frames: 2.50 fps  vca 39 frames: 2.73 fps  vca 44 frames: 2.90 fps  vca 46 frames: 2.94 fps  vca 49 frames: 3.07 fps  vca 50 frames: 3.09 fps  vca 53 frames: 3.19 fps  vca 56 frames: 3.30 fps  vca 59 frames: 3.25 fps  vca 61 frames: 3.31 fps  vca 66 frames: 3.50 fps  vca 68 frames: 3.49 fps  vca 69 frames: 3.50 fps  vca 73 frames: 3.58 fps  vca 76 frames: 3.68 fps  vca 79 frames: 3.77 fps  vca 80 frames: 3.75 fps  vca 83 frames: 3.83 fps  vca 86 frames: 3.92 fps  vca 89 frames: 3.99 fps  vca 90 frames: 3.74 fps  vca 94 frames: 3.86 fps  vca 97 frames: 3.93 fps  vca 100 frames: 4.01 fps  vca 103 frames: 4.07 fps  vca 104 frames: 4.06 fps  vca 110 frames: 4.23 fps  vca 111 frames: 4.21 fps  vca 116 frames: 4.34 fps  vca - Analyzed 120/120 frames, 4.47 fps, time 0:00:26.864
