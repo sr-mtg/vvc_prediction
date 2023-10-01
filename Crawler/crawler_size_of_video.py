@@ -26,10 +26,11 @@ if response.status_code == 200:
         except ValueError:
             pass
     
-    with open('size.txt', 'w') as file:
+    with open('../Crawl_result/size_of_video.txt', 'w') as file:
+        file.write('size\n')
         for value in numeric_td_elements:
             file.write(str(value) + '\n')
     
-    print("Numeric values have been written to 'size.txt'.")
+    print("Numeric values have been written to 'size_of_video.txt'.")
 else:
     print("Failed to retrieve the web page. Status code: response.status_code",response.status_code)
