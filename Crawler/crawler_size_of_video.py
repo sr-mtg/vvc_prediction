@@ -27,7 +27,7 @@ if response.status_code == 200:
             pass
     
     with open('../Crawl_result/size_of_video.txt', 'w') as file:
-        file.write('size\n')
+        file.write('Size\n')
         for value in numeric_td_elements:
             file.write(str(value) + '\n')
     
