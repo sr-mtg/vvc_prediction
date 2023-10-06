@@ -1,16 +1,4 @@
-#######collect Data
-import pandas as pd
-#df_siti = pd.read_csv('result_aau/EH.csv')
-df_siti = pd.read_csv('result_aau/siti.csv')
-X = pd.read_csv('size.txt')
-#print(df_siti.head())
-#X= df_siti.drop('Name', axis=1)
-#X['Size'] = df_size['Size']
-#print(X.head())
-df_responsTime = pd.read_csv('result_aau/x265_time_medium_c5_2xlarge.csv')
-#print(df_responsTime.head())
-print(X.head())
-Y = df_responsTime['time_QP27']
+from VCA_data_frame import X,Y
 
 #######split Data
 from sklearn.model_selection import train_test_split
