@@ -1,0 +1,2 @@
+    ffmpeg -i ~/aau/video/AncientThought_s003.265 -f yuv4mpegpipe - | ~/VCA/build/source/apps/vca/vca --y4m --input stdin --complexity-csv name.csv
+ffmpeg -i ~/aau/video/AncientThought_s003.265 -f yuv4mpegpipe - | ~/VCA/build/source/apps/vca/vca --y4m --input stdin --complexity-csv complexity.csv --shot-csv shot.csv --yuview-stats yuview
